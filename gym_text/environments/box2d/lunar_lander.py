@@ -35,8 +35,8 @@ Action to take:"""
 
     def get_string_action_space(self, eos_token: str = "") -> List[str]:
         return [
-            f"do nothing{eos_token}",
-            f"fire left-orientation engine{eos_token}",
-            f"fire main engine{eos_token}",
-            f"fire right-orientation engine{eos_token}",
+            f" do nothing{eos_token}",
+            f" fire left-orientation engine{eos_token}",
+            f" fire main engine{eos_token}",
+            f" fire right-orientation engine{eos_token}",
         ]
